@@ -9,6 +9,7 @@ public class CreateTest {
 	{
 		System.out.println("project ready");
 		System.out.println("Demo Running");
+		System.out.println("Hi");
 	
 	}
 	
