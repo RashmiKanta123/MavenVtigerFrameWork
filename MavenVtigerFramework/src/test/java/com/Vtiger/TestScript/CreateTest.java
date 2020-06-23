@@ -8,8 +8,7 @@ public class CreateTest {
 	public void createTest()
 	{
 		System.out.println("project ready");
-	//	System.out.println("0987654321");
-		System.out.println("iiiiiuuuuttt");
+	
 	}
 	
 }
