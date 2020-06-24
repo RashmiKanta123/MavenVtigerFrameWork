@@ -28,5 +28,6 @@ public class ContactCreateTest extends BaseClass{
 		cpi.getSave().click();
 		String actualSuccessMsg=ccsm.getSuccessMsg().getText();
 		Assert.assertTrue(actualSuccessMsg.contains(data.getDataFromExcel("Contact",2,2)));
+		System.out.println("contact page create successfully");
    }
 }

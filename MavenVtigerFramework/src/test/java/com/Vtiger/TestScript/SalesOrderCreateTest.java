@@ -24,13 +24,14 @@ public class SalesOrderCreateTest extends BaseClass{
 	{
 		HomePageElementCreate hpec= PageFactory.initElements(driver, HomePageElementCreate.class );
 		SalesOrderOpen soo=PageFactory.initElements(driver, SalesOrderOpen.class);
-		WebDriverCommonUtils wdcu=PageFactory.initElements(driver,WebDriverCommonUtils.class);
+	//	WebDriverCommonUtils wdcu=PageFactory.initElements(driver,WebDriverCommonUtils.class);
 		SalesOrderCreate soc=PageFactory.initElements(driver, SalesOrderCreate.class);
 		SalesOrderOrganization soOrg=PageFactory.initElements(driver, SalesOrderOrganization.class);
 		SalesOrderProduct sop =PageFactory.initElements(driver,SalesOrderProduct.class);
 		SalesOrderSuccessMsg sos =PageFactory.initElements(driver,SalesOrderSuccessMsg.class);
 		
-		wdcu.keepmouseonElement(hpec.getMore());	
+	//	wdcu.keepmouseonElement(hpec.getMore());
+		hpec.getMore().click();
 		hpec.getSalesOrder().click();
 		soo.getCreateSO().click();
 	
@@ -57,7 +58,7 @@ public class SalesOrderCreateTest extends BaseClass{
 		String actualMsg=sos.getSOSuccessMsg().getText();
 		
 		Assert.assertTrue(actualMsg.contains(data.getDataFromExcel("Sales_Order", 2,7)));
-		
+		System.out.println("Sales order page create successfully");
 		
 	}
 

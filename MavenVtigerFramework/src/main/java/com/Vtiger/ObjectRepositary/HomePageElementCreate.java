@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 import com.Vtiger.genericLib.BaseClass;
 
-public class HomePageElementCreate {
+public class HomePageElementCreate extends BaseClass {
 	@FindBy(linkText="Leads")
 	private WebElement Leads;
 	
@@ -16,11 +16,6 @@ public class HomePageElementCreate {
 	@FindBy(linkText="Products")
 	private WebElement product;
 	
-	@FindBy(xpath="//span[text()=' Administrator']/../following-sibling::td[1]/img")
-	private WebElement signoutDD;
-	
-	@FindBy(linkText="Sign Out")
-	private WebElement signoutLink;
 	
 	@FindBy(linkText="Contacts")
 	private WebElement contact;
@@ -31,49 +26,66 @@ public class HomePageElementCreate {
 	@FindBy(linkText="Sales Order")
 	private WebElement salesOrder;
 	
-	public WebElement getLeads()
-	{
+	@FindBy(xpath="//span[text()=' Administrator']/../following-sibling::td[1]/img")
+	private WebElement signoutDD;
+	
+	@FindBy(linkText="Sign Out")
+	private WebElement signoutLink;
+	
+	
+	public WebElement getLeads() {
 		return Leads;
 	}
-	
-	public WebElement getorganization()
-	{
+
+
+	public WebElement getOrganization() {
 		return organization;
 	}
-	
-	public WebElement getproduct()
-	{
+
+
+	public WebElement getProduct() {
 		return product;
 	}
-	
-	public WebElement getysignoutDD()
-	{
-		return signoutDD;
-	}
-	public WebElement getsignoutLink()
-	{
-		return signoutLink;
-	}
-	public WebElement getContact()
-	{
+
+
+	public WebElement getContact() {
 		return contact;
 	}
-	
-	public WebElement getMore()
-	{
+
+
+	public WebElement getMore() {
 		return more;
 	}
-	public WebElement getSalesOrder()
-	{
+
+
+	public WebElement getSalesOrder() {
 		return salesOrder;
 	}
-	
-	public void logoutFromApp()
+
+
+	public WebElement getSignoutDD() {
+		return signoutDD;
+	}
+
+
+	public WebElement getSignoutLink() {
+		return signoutLink;
+	}
+
+
+/*	public void logoutFromApp()
 	{
 		Actions act = new Actions(BaseClass.driver);
 		act.moveToElement(signoutDD).perform();
-		signoutLink.click();
-	}
+		signoutLink.click();  
+	}	 */
+		public void logoutFromApp() {
+		//	wdu.keepMouseElement(signoutDD);
+			wdu.keepmouseonElement(signoutDD);
+			signoutLink.click();
+		}
+		
+	
 	
 
 }
