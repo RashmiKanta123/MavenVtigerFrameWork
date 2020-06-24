@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35861" started-at="2020-06-22T16:00:52Z" finished-at="2020-06-22T16:01:28Z">
+  <suite name="Default suite" duration-ms="22985" started-at="2020-06-24T14:55:56Z" finished-at="2020-06-24T14:56:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35861" started-at="2020-06-22T16:00:52Z" finished-at="2020-06-22T16:01:28Z">
+    <test name="Default test" duration-ms="22985" started-at="2020-06-24T14:55:56Z" finished-at="2020-06-24T14:56:19Z">
       <class name="com.Vtiger.TestScript.SalesOrderCreateTest">
-        <test-method status="PASS" signature="configBS()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configBS" is-config="true" duration-ms="12" started-at="2020-06-22T16:00:52Z" finished-at="2020-06-22T16:00:52Z">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configBS" is-config="true" duration-ms="8" started-at="2020-06-24T14:55:56Z" finished-at="2020-06-24T14:55:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method status="PASS" signature="configBC()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configBC" is-config="true" duration-ms="7434" started-at="2020-06-22T16:00:52Z" finished-at="2020-06-22T16:00:59Z">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configBC" is-config="true" duration-ms="4724" started-at="2020-06-24T14:55:56Z" finished-at="2020-06-24T14:56:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configBM" is-config="true" duration-ms="3925" started-at="2020-06-22T16:00:59Z" finished-at="2020-06-22T16:01:03Z">
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configBM" is-config="true" duration-ms="2101" started-at="2020-06-24T14:56:01Z" finished-at="2020-06-24T14:56:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="salesOrderCreate()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="salesOrderCreate" duration-ms="21363" started-at="2020-06-22T16:01:03Z" finished-at="2020-06-22T16:01:25Z">
+        <test-method status="PASS" signature="salesOrderCreate()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="salesOrderCreate" duration-ms="14355" started-at="2020-06-24T14:56:03Z" finished-at="2020-06-24T14:56:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- salesOrderCreate -->
-        <test-method status="PASS" signature="configAM()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configAM" is-config="true" duration-ms="2319" started-at="2020-06-22T16:01:25Z" finished-at="2020-06-22T16:01:27Z">
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configAM" is-config="true" duration-ms="1071" started-at="2020-06-24T14:56:17Z" finished-at="2020-06-24T14:56:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method status="PASS" signature="configAC()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configAC" is-config="true" duration-ms="788" started-at="2020-06-22T16:01:27Z" finished-at="2020-06-22T16:01:28Z">
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configAC" is-config="true" duration-ms="717" started-at="2020-06-24T14:56:18Z" finished-at="2020-06-24T14:56:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method status="PASS" signature="configAS()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configAS" is-config="true" duration-ms="1" started-at="2020-06-22T16:01:28Z" finished-at="2020-06-22T16:01:28Z">
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configAS" is-config="true" duration-ms="0" started-at="2020-06-24T14:56:19Z" finished-at="2020-06-24T14:56:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
