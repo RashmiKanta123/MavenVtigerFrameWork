@@ -26,11 +26,16 @@ public class LeadCreateTest extends BaseClass {
 		
 		hpec.getLeads().click();
 		lpoe.getCreateLead().click();
-		lpce.getCompanyNametb().sendKeys(data.getDataFromExcel("Lead", 2,1));
+		lpce.getLastNametb().sendKeys(data.getDataFromExcel("Lead", 2,1));
 		lpce.getCompanyNametb().sendKeys(data.getDataFromExcel("Lead", 2,2));
 		lpce.getSaveBtn().click();
+		
 		String actualMsg = lipe.getSucessMsg().getText();
+		
 		Assert.assertTrue(actualMsg.contains(data.getDataFromExcel("Lead", 2,3)));
+		
+    
+		
 	}
 
 }

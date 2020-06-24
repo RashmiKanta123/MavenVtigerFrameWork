@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40908" started-at="2020-06-24T19:26:50Z" finished-at="2020-06-24T19:27:31Z">
+  <suite name="Default suite" duration-ms="29683" started-at="2020-06-24T19:54:50Z" finished-at="2020-06-24T19:55:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40908" started-at="2020-06-24T19:26:50Z" finished-at="2020-06-24T19:27:31Z">
-      <class name="com.Vtiger.TestScript.SalesOrderCreateTest">
-        <test-method status="PASS" signature="configBS()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configBS" is-config="true" duration-ms="12" started-at="2020-06-24T19:26:50Z" finished-at="2020-06-24T19:26:50Z">
+    <test name="Default test" duration-ms="29683" started-at="2020-06-24T19:54:50Z" finished-at="2020-06-24T19:55:20Z">
+      <class name="com.Vtiger.TestScript.LeadCreateTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.Vtiger.TestScript.LeadCreateTest@42e26948]" name="configBS" is-config="true" duration-ms="12" started-at="2020-06-24T19:54:50Z" finished-at="2020-06-24T19:54:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method status="PASS" signature="configBC()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configBC" is-config="true" duration-ms="7791" started-at="2020-06-24T19:26:50Z" finished-at="2020-06-24T19:26:58Z">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.Vtiger.TestScript.LeadCreateTest@42e26948]" name="configBC" is-config="true" duration-ms="6301" started-at="2020-06-24T19:54:50Z" finished-at="2020-06-24T19:54:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configBM" is-config="true" duration-ms="5396" started-at="2020-06-24T19:26:58Z" finished-at="2020-06-24T19:27:03Z">
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.Vtiger.TestScript.LeadCreateTest@42e26948]" name="configBM" is-config="true" duration-ms="5104" started-at="2020-06-24T19:54:56Z" finished-at="2020-06-24T19:55:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="salesOrderCreate()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="salesOrderCreate" duration-ms="23980" started-at="2020-06-24T19:27:03Z" finished-at="2020-06-24T19:27:27Z">
+        <test-method status="PASS" signature="createLeads()[pri:0, instance:com.Vtiger.TestScript.LeadCreateTest@42e26948]" name="createLeads" duration-ms="14694" started-at="2020-06-24T19:55:01Z" finished-at="2020-06-24T19:55:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- salesOrderCreate -->
-        <test-method status="PASS" signature="configAM()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configAM" is-config="true" duration-ms="2853" started-at="2020-06-24T19:27:27Z" finished-at="2020-06-24T19:27:30Z">
+        </test-method> <!-- createLeads -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.Vtiger.TestScript.LeadCreateTest@42e26948]" name="configAM" is-config="true" duration-ms="2798" started-at="2020-06-24T19:55:16Z" finished-at="2020-06-24T19:55:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method status="PASS" signature="configAC()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configAC" is-config="true" duration-ms="851" started-at="2020-06-24T19:27:30Z" finished-at="2020-06-24T19:27:31Z">
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.Vtiger.TestScript.LeadCreateTest@42e26948]" name="configAC" is-config="true" duration-ms="759" started-at="2020-06-24T19:55:19Z" finished-at="2020-06-24T19:55:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method status="PASS" signature="configAS()[pri:0, instance:com.Vtiger.TestScript.SalesOrderCreateTest@42e26948]" name="configAS" is-config="true" duration-ms="1" started-at="2020-06-24T19:27:31Z" finished-at="2020-06-24T19:27:31Z">
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.Vtiger.TestScript.LeadCreateTest@42e26948]" name="configAS" is-config="true" duration-ms="1" started-at="2020-06-24T19:55:20Z" finished-at="2020-06-24T19:55:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- com.Vtiger.TestScript.SalesOrderCreateTest -->
+      </class> <!-- com.Vtiger.TestScript.LeadCreateTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
