@@ -7,9 +7,11 @@ public class ContactPageOpen {
 	
 	@FindBy(css="img[title='Create Contact...']")
 	private WebElement createContact;
+
+	public WebElement getCreateContact() {
+		return createContact;
+	}
+
 	
-    public WebElement getCreateContact()
-    {
-    	return createContact;
-    }
+   
 }

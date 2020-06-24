@@ -7,10 +7,10 @@ public class SalesOrderOrganization {
 	
 	@FindBy(linkText="RKP pvt.ltd.")
 	private WebElement organizationName;
-	
-	public WebElement getOrganizationName()
-	{
+
+	public WebElement getOrganizationName() {
 		return organizationName;
 	}
-
+	
+	
 }

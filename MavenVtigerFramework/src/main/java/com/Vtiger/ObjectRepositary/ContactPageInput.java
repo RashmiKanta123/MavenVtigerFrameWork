@@ -9,14 +9,16 @@ public class ContactPageInput {
 	@FindBy(name="lastname")
 	private WebElement inputLastname;
 	
-	public WebElement getLatname() {
-		return inputLastname;
-	}
-	
 	@FindBy(css="input[value='  Save  ']")
 	private WebElement save;
-	
+
+	public WebElement getInputLastname() {
+		return inputLastname;
+	}
+
 	public WebElement getSave() {
 		return save;
 	}
+	
+	
 }

@@ -6,10 +6,10 @@ import org.openqa.selenium.support.FindBy;
 public class LeadsInfoPageElement {
 	@FindBy(xpath="//span[contains(text(),'Lead Information')]")
 	private WebElement sucessMsg;
-	
-	public WebElement getSuccessMsg()
-	{
+
+	public WebElement getSucessMsg() {
 		return sucessMsg;
 	}
-
+	
+	
 }

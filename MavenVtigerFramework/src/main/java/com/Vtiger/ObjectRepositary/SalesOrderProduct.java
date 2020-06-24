@@ -7,9 +7,10 @@ public class SalesOrderProduct {
 
 	@FindBy(linkText="rkp")
 	private WebElement products;
-	
-	public WebElement getProductName()
-	{
+
+	public WebElement getProducts() {
 		return products;
 	}
+	
+	
 }

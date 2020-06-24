@@ -24,7 +24,7 @@ public class ContactCreateTest extends BaseClass{
 		
 		hpec.getContact().click();
 		cpo.getCreateContact().click();
-		cpi.getLatname().sendKeys(data.getDataFromExcel("Contact",2,1));
+		cpi.getInputLastname().sendKeys(data.getDataFromExcel("Contact",2,1));
 		cpi.getSave().click();
 		String actualSuccessMsg=ccsm.getSuccessMsg().getText();
 		Assert.assertTrue(actualSuccessMsg.contains(data.getDataFromExcel("Contact",2,2)));

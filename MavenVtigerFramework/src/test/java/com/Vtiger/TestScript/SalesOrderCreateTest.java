@@ -33,8 +33,8 @@ public class SalesOrderCreateTest extends BaseClass{
 	//	wdcu.keepmouseonElement(hpec.getMore());
 		hpec.getMore().click();
 		hpec.getSalesOrder().click();
-		soo.getCreateSO().click();
-	
+	    soo.getSalesOrder().click();
+	    
 		soc.getSubject().sendKeys(data.getDataFromExcel("Sales_Order", 2,1));
 	
 		soc.getOrganization().click();
@@ -43,19 +43,20 @@ public class SalesOrderCreateTest extends BaseClass{
 		wdu.acceptAlert();
 		wdu.switchToMainWindow();
 		
-		soc.getBillingAddress().sendKeys(data.getDataFromExcel("Sales_Order", 2,3));
-		soc.getShippingAddress().sendKeys(data.getDataFromExcel("Sales_Order", 2,4));
+		soc.getBillingAdd().sendKeys(data.getDataFromExcel("Sales_Order", 2,3));
+		soc.getShippingAdd().sendKeys(data.getDataFromExcel("Sales_Order", 2,4));
 		
 		soc.getProduct().click();
 		wdu.switchtoNewWindow();
-		sop.getProductName().click();
+		sop.getProducts().click();
+		
 		wdu.switchToMainWindow();
 		
 		soc.getQty().sendKeys(data.getDataFromExcel("Sales_Order", 2,6));
 		
 		soc.getSave().click();
 		
-		String actualMsg=sos.getSOSuccessMsg().getText();
+		String actualMsg=sos.getSuccessMsg().getText();
 		
 		Assert.assertTrue(actualMsg.contains(data.getDataFromExcel("Sales_Order", 2,7)));
 		System.out.println("Sales order page create successfully");

@@ -12,20 +12,31 @@ public class LeadsPageCreateElement {
 	
 	@FindBy(xpath="//input[@value='  Save  ']")
 	private WebElement saveBtn;
-	
-	public WebElement getLastNameTb()
-	{
+
+	public WebElement getLastNametb() {
 		return lastNametb;
 	}
-	
-	public WebElement getCompanyNameTb()
-	{
+
+	public void setLastNametb(WebElement lastNametb) {
+		this.lastNametb = lastNametb;
+	}
+
+	public WebElement getCompanyNametb() {
 		return companyNametb;
 	}
-	
-	public WebElement getSaveBtn()
-	{
+
+	public void setCompanyNametb(WebElement companyNametb) {
+		this.companyNametb = companyNametb;
+	}
+
+	public WebElement getSaveBtn() {
 		return saveBtn;
 	}
+
+	public void setSaveBtn(WebElement saveBtn) {
+		this.saveBtn = saveBtn;
+	}
+	
+	
 
 }

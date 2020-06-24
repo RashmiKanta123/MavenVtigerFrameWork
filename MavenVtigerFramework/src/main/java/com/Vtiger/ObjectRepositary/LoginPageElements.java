@@ -16,22 +16,32 @@ public class LoginPageElements {
 	@FindBy(xpath="//div[contains(text(),'You must specify a valid')]")
 	private WebElement errorMsg;
 	
+	
+	
 	public WebElement getUsername() {
 		return username;
 	}
-	
-	public WebElement getpassword() {
+
+
+
+	public WebElement getPassword() {
 		return password;
 	}
-	
-	public WebElement getloginBtn() {
+
+
+
+	public WebElement getLoginBtn() {
 		return loginBtn;
 	}
-	
-	public WebElement geterrormsg() {
+
+
+
+	public WebElement getErrorMsg() {
 		return errorMsg;
 	}
-	
+
+
+
 	public void loginToApp(String un,String pwd)
 	{
 		username.sendKeys(un);

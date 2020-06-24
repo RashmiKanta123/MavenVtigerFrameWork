@@ -7,10 +7,16 @@ public class SalesOrderOpen {
 
 	@FindBy(css="img[title='Create Sales Order...']")
 	private WebElement salesOrder;
-	
-	public WebElement getCreateSO()
-	{
+
+	public WebElement getSalesOrder() {
 		return salesOrder;
 	}
+
+	public WebElement getCreateSO() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
 	 
 }

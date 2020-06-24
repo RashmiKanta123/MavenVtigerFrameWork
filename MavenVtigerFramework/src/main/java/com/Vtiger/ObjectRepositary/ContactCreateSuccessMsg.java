@@ -7,9 +7,11 @@ public class ContactCreateSuccessMsg {
 	
 	@FindBy(xpath="//span[contains(text(),'Contact Information')]")
 	private WebElement successMsg;
-	
+
 	public WebElement getSuccessMsg() {
 		return successMsg;
 	}
+	
+	
 
 }

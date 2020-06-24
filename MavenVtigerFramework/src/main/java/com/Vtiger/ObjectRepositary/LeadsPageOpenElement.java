@@ -7,10 +7,9 @@ public class LeadsPageOpenElement {
 	
 	@FindBy(css="img[title='Create Lead...']")
 	private WebElement createLead;
-	
-	public WebElement getCreatedLead()
-	{
+
+	public WebElement getCreateLead() {
 		return createLead;
 	}
-
+	
 }

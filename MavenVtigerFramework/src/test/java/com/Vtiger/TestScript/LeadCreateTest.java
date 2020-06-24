@@ -25,11 +25,11 @@ public class LeadCreateTest extends BaseClass {
 		LeadsInfoPageElement lipe = PageFactory.initElements(driver, LeadsInfoPageElement.class);
 		
 		hpec.getLeads().click();
-		lpoe.getCreatedLead().click();
-		lpce.getLastNameTb().sendKeys(data.getDataFromExcel("Lead", 2,1));
-		lpce.getCompanyNameTb().sendKeys(data.getDataFromExcel("Lead", 2,2));
+		lpoe.getCreateLead().click();
+		lpce.getCompanyNametb().sendKeys(data.getDataFromExcel("Lead", 2,1));
+		lpce.getCompanyNametb().sendKeys(data.getDataFromExcel("Lead", 2,2));
 		lpce.getSaveBtn().click();
-		String actualMsg = lipe.getSuccessMsg().getText();
+		String actualMsg = lipe.getSucessMsg().getText();
 		Assert.assertTrue(actualMsg.contains(data.getDataFromExcel("Lead", 2,3)));
 	}
 
